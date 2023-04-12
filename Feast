@@ -1,0 +1,9 @@
+def feast(beast, dish):
+    # your code here
+    lengthd= len(dish)
+    lengthb = len(beast)
+    if dish[0] == beast[0] and dish[len(dish) - 1] == beast[len(beast) - 1]:
+        return True
+    else:
+        return False
+    pass
